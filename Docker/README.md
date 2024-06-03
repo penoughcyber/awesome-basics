@@ -14,8 +14,6 @@ Further, We need to learn about how docker came. Actually, Docker was introduced
 - [Why use Docker?](#Why-use-Docker)
 - [Docker Installation](#Docker-Installation)
   - [Ubuntu](#)
-  - [Windows](#)
-  - [MacOS](#)
 
 # Features and Characteristics of Docker
 
