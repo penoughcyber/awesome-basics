@@ -78,6 +78,9 @@ Here are some key difference between Traditional Deployement vs Docker Deployeme
   * Version control for container images allows easy tracking of changes and rollbacks.
   * Ensures consistency and reliability across different versions of the application.
 
+<p align="center">
+<img src="./Resources/traditional vs docker.png" alt="traditional vs docker" width="400">
+</p>
    
 
 # Architecture of Docker and its use case
@@ -185,9 +188,11 @@ Further, Docker is a versatile tool with a wide range of use cases across differ
 * Consistent Backups: Docker makes it easier to create consistent backups of applications and their environments.
 * Rapid Recovery: In case of a failure, containers can be quickly restored from backups, minimizing downtime.
 
-Moreover, there are more use cases other than these four. Docker's versatility and wide range of use cases make it an essential tool in modern software development, deployment, and operations, helping organizations achieve consistency, efficiency, and scalability across various domains.
+Moreover, there are more use cases other than these four. Further, Docker's versatility and wide range of use cases make it an essential tool in modern software development, deployment, and operations, helping organizations achieve consistency, efficiency, and scalability across various domains.
 
-
+<p align="center">
+<img src="./Resources/docker-architecture.png" alt="Docker Icon" width="400" height="350">
+</p>
 
 # Why use Docker?
 
