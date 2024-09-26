@@ -12,3 +12,4 @@ Welcome to Awesome Basics! This repository provides comprehensive guides to help
 - [Docker](./Docker/README.md)
 - [Portainer](./Portainer/README.md)
 - [Snort](./Snort/README.md)
+- [Sysmon](./Sysmon/README.md)
