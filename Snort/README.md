@@ -36,7 +36,7 @@ Snort's architecture is comprised of several core components that work together 
 * **Output Modules:** Handle the output of alerts and logs, supporting various formats and destinations.
 
 <p align="center">
-<img src="./Resources/snort_architecture.png" alt="Snort Architecture" width="400">
+<img src="./Resources/snort_architecture.png" alt="Snort Architecture" width="700">
 </p>
 
 # Snort Use Cases
