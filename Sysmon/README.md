@@ -30,6 +30,7 @@ Since its initial release, Sysmon has become an essential tool for Windows syste
 4. Check Whether sysmon is installed or not:
    * In search box, serach "Event Viewer"
    * Then follow the given path: "Applications and Services Logs" -> "Microsoft" -> "Windows" -> "Sysmon" -> "Operational"
+   * If you find the path then congratulations you successfully installed sysmon in your system.
    * Here is an image for your better understanding:
    
    <p align="center">
