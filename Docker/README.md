@@ -208,7 +208,7 @@ Lastly, Docker has transformed the software development lifecycle by providing a
 If you haven't explored Docker yet, now's the time! Dive in, experiment, and see how it can simplify and accelerate your projects.
 
 # Docker Installation
-How to Install docker in your `Ubuntu 22.04` System.
+How to Install docker in your `Ubuntu 22.04` & `Ubuntu 24.04` System.
 
 ## Step 1: Install Docker on Ubuntu 22.04
 
@@ -239,3 +239,44 @@ How to Install docker in your `Ubuntu 22.04` System.
    ```shell
    sudo systemctl status docker
    ```
+   
+
+## Step 2: Install Docker on Ubuntu 24.04
+
+If you have Docker installed on your system and it's not working properly on your machine which means you need to install the latest version of Docker.
+For Installing Docker latest version at first you need to uninstall all conflicting packages.
+
+1. Run the following command to uninstall all conflicting packages:
+
+    ```shell
+    for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do sudo apt-get remove $pkg; done
+    ```
+
+2. Set up Docker's apt repository: 
+    ```shell
+   # Add Docker's official GPG key:
+    sudo apt-get update
+    sudo apt-get install ca-certificates curl
+    sudo install -m 0755 -d /etc/apt/keyrings
+    sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+    sudo chmod a+r /etc/apt/keyrings/docker.asc
+    
+    # Add the repository to Apt sources:
+    echo \
+      "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
+      $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
+      sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+    sudo apt-get update
+    ```
+3. For instaling the latest version of Docker, run the following command:
+
+    ```shell
+    sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+    ```
+
+4. Verify the Installation:
+
+    ```shell
+    sudo docker --version
+    ```
+
