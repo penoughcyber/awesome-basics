@@ -11,3 +11,4 @@ Welcome to Awesome Basics! This repository provides comprehensive guides to help
 ## Table of Contents
 - [Docker](./Docker/README.md)
 - [Portainer](./Portainer/README.md)
+- [Snort](./Snort/README.md)

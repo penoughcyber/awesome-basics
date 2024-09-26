@@ -208,7 +208,7 @@ Lastly, Docker has transformed the software development lifecycle by providing a
 If you haven't explored Docker yet, now's the time! Dive in, experiment, and see how it can simplify and accelerate your projects.
 
 # Docker Installation
-How to Install docker in your `Ubuntu 22.04` System.
+How to Install docker in your `Ubuntu 22.04` & `Ubuntu 24.04` System.
 
 ## Step 1: Install Docker on Ubuntu 22.04
 
@@ -277,6 +277,6 @@ For Installing Docker latest version at first you need to uninstall all conflict
 4. Verify the Installation:
 
     ```shell
-    docker --version
+    sudo docker --version
     ```
 
